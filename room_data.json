@@ -1,0 +1,16 @@
+{
+	"aspect": 1.7,
+	"rooms": [
+		{"name": "dining", "area": 175, "adjacency": ["outside", "living", "kitchen"], "aspect ratio": 1},
+		{"name": "kitchen", "area": 189, "adjacency": ["outside", "dining", "living"], "aspect ratio": 1},
+		{"name": "m_bath", "area": 99, "adjacency": ["m_bedroom"]}, 
+		{"name": "bath", "area": 55, "adjacency": ["hall"]}, 
+		{"name": "m_bedroom", "area": 238, "adjacency": ["outside", "m_bath", "hall"], "aspect ratio": 1}, 
+		{"name": "living", "area": 372, "adjacency": ["outside", "dining", "kitchen"], "aspect ratio": 1}, 
+		{"name": "hall", "area": 63, "adjacency": ["living", "util", "bath", "bedroom_1", "bedroom_2", "m_bedroom"]}, 
+		{"name": "util", "area": 37, "adjacency": ["hall"]},
+		{"name": "foyer", "area": 38, "adjacency": ["outside", "living"]},
+		{"name": "bedroom_1", "area": 150, "adjacency": ["outside", "hall"], "aspect ratio": 1},
+		{"name": "bedroom_2", "area": 204, "adjacency": ["outside", "hall"], "aspect ratio": 1}
+	]
+}
