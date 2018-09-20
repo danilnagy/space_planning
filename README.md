@@ -1,6 +1,6 @@
 # Space planning test model based on subdivision
 
-The `room_data.json` file specifies the problem definition including room sizes and adjacency criteria. To create a space plan import the `get_layout` function from the `space_planning` library. The function expects 5 inputs (n represents the number of rooms specified in the problem definition:
+The `room_data.json` file specifies the problem definition including room sizes and adjacency criteria. To create a space plan import the `get_layout` function from the `space_planning` library. The function expects 5 inputs (n represents the number of rooms specified in the problem definition):
 
 - room_def: problem definition imported from `room_data.json` file
 - split_list: list of (n-2) floats in domain [0.0-1.0] which determines the order of the subdivision tree
